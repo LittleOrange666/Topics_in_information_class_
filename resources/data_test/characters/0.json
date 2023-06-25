@@ -1,0 +1,29 @@
+{
+	"attributes":{
+		"attack": 250,
+		"attack_speed": 100,
+		"max_health": 1000,
+		"defense": 100,
+		"resistance": 0,
+		"move_speed": 300,
+		"attack_range": 1,
+		"attack_interval": 1,
+		"attack_count": 100
+	},
+	"textures": {
+		"character": "characters/0/2.png",
+		"weapon": "characters/0/sword0.png",
+		"label": "characters/0/face.png"
+	},
+	"skills": [
+		{
+			"name": "strongattack",
+			"sp": 3,
+			"mul": 3
+		}
+	],
+	"name": "main_test",
+	"type": "main",
+	"cost": 0,
+	"redeploy": 60
+}

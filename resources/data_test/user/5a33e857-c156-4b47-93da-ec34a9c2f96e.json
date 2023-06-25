@@ -1,0 +1,85 @@
+{
+    "accessible": [
+        "0-1",
+        "TR-1",
+        "0-2",
+        "TR-2",
+        "0-3",
+        "TR-3",
+        "0-4",
+        "TR-4",
+        "ex"
+    ],
+    "completed": [
+        "ex"
+    ],
+    "formation": [
+        {
+            "orb": "0",
+            "weapon": "0"
+        },
+        {
+            "orb": "1",
+            "weapon": "1"
+        },
+        {
+            "orb": "2",
+            "weapon": "4"
+        },
+        {
+            "orb": null,
+            "weapon": "3"
+        },
+        {
+            "orb": null,
+            "weapon": "2"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "full_completed": [
+        "ex"
+    ],
+    "orbs": [
+        {
+            "level": 1,
+            "name": "0"
+        },
+        {
+            "level": 1,
+            "name": "1"
+        },
+        {
+            "level": 1,
+            "name": "2"
+        }
+    ],
+    "weapons": [
+        {
+            "level": 1,
+            "name": "0"
+        },
+        {
+            "level": 1,
+            "name": "1"
+        },
+        {
+            "level": 1,
+            "name": "2"
+        },
+        {
+            "level": 1,
+            "name": "3"
+        },
+        {
+            "level": 1,
+            "name": "4"
+        }
+    ]
+}

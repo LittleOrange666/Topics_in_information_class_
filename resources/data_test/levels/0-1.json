@@ -1,0 +1,85 @@
+{
+    "base": {
+        "name": "最初的一關",
+        "width": 10,
+        "height": 7,
+        "map": [
+            [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+            [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+            [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+            [1, 1, 0, 0, 0, 0, 0, 0, 1, 1],
+            [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+            [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+            [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+        ],
+        "red_doors": [
+            [2, 3]
+        ],
+        "blue_doors": [
+            [7, 3]
+        ],
+        "tower_health": 10,
+        "default_cost": 10,
+        "max_cost": 99
+    },
+    "rewards": {
+        "first": [
+            {
+                "type": "level",
+                "value": "TR-1"
+            },
+            {
+                "type": "weapon",
+                "value": "0"
+            }
+        ],
+        "first_full": [],
+        "full": [],
+        "partial": []
+    },
+    "enemies": {
+        "0": {}
+    },
+    "actionlist": [
+        {
+            "type": "single",
+            "time": 0,
+            "action": "tutorial",
+            "text": "敵人出現了"
+        },
+        {
+            "type": "multiple",
+            "time": 0,
+            "count": 3,
+            "delay": 10,
+            "action": "spawn",
+            "pos": [2,3],
+            "name": "0",
+            "trace": 0
+        }
+    ],
+    "traces": [
+        [
+            {
+                "type": "move",
+                "value": [3, 3]
+            },
+            {
+                "type": "wait_for_second",
+                "value": 5
+            },
+            {
+                "type": "move",
+                "value": [6, 3]
+            },
+            {
+                "type": "wait_for_second",
+                "value": 5
+            },
+            {
+                "type": "move",
+                "value": [7, 3]
+            }
+        ]
+    ]
+}

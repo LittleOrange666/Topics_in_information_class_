@@ -1,0 +1,23 @@
+{
+    "shield": {
+        "attributes": {},
+        "skills": [
+            {
+                "name": "smallpush",
+                "sp": 5,
+                "power": 20,
+                "title": "推一下"
+            }
+        ],
+        "character_type": "ground",
+        "name": "推推",
+        "attack_area": [
+            [0,0],
+            [1,0]
+        ]
+    },
+    "textures": {
+        "icon": "weapon/1_icon.png"
+    },
+    "name": "推推"
+}

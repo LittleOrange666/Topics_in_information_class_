@@ -1,0 +1,14 @@
+{
+	"attributes":{
+		"attack": 100,
+		"attack_speed": 100,
+		"max_health": 500,
+		"defense": 10,
+		"resistance": 0,
+		"move_speed": 100,
+		"attack_interval": 2
+	},
+	"textures": {
+		"character": "enemies/0/1.png"
+	}
+}

@@ -1,0 +1,301 @@
+{
+    "base": {
+        "name": "示例",
+        "width": 10,
+        "height": 7,
+        "map": [
+            [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+            [1, 1, 1, 1, 2, 0, 0, 0, 0, 1],
+            [1, 1, 1, 1, 2, 0, 1, 1, 1, 1],
+            [1, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+            [1, 0, 0, 0, 0, 0, 1, 1, 1, 1],
+            [1, 0, 0, 0, 0, 0, 1, 1, 1, 1],
+            [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+        ],
+        "red_doors": [
+            [1, 3],
+            [1, 4],
+            [1, 5]
+        ],
+        "blue_doors": [
+            [8, 1],
+            [8, 3]
+        ],
+        "tower_health": 300,
+        "default_cost": 0,
+        "max_cost": 99
+    },
+    "rewards": {
+        "first": [],
+        "first_full": [],
+        "full": [],
+        "partial": []
+    },
+    "enemies": {
+        "0": {
+            "modifiers": [
+                {
+                    "attribute": "max_health",
+                    "type": "final_multiply",
+                    "value": 3
+                }
+            ]
+        },
+        "1": {
+            "modifiers": [
+                {
+                    "attribute": "max_health",
+                    "type": "final_multiply",
+                    "value": 1.4
+                }
+            ]
+        },
+        "2": {
+            "modifiers": [
+                {
+                    "attribute": "max_health",
+                    "type": "final_multiply",
+                    "value": 0.85
+                }
+            ]
+        }
+    },
+    "actionlist": [
+        {
+            "type": "multiple",
+            "time": 0,
+            "count": 1,
+            "delay": 10,
+            "action": "spawn",
+            "pos": [1,3],
+            "name": "1",
+            "trace": 1
+        },
+        {
+            "type": "multiple",
+            "time": 10,
+            "count": 10,
+            "delay": 5,
+            "action": "spawn",
+            "pos": [1,5],
+            "name": "0",
+            "trace": 0
+        },
+        {
+            "type": "multiple",
+            "time": 60,
+            "count": 10,
+            "delay": 4,
+            "action": "spawn",
+            "pos": [1,5],
+            "name": "0",
+            "trace": 0
+        },
+        {
+            "type": "multiple",
+            "time": 100,
+            "count": 10,
+            "delay": 3,
+            "action": "spawn",
+            "pos": [1,5],
+            "name": "0",
+            "trace": 0
+        },
+        {
+            "type": "multiple",
+            "time": 130,
+            "count": 15,
+            "delay": 2,
+            "action": "spawn",
+            "pos": [1,5],
+            "name": "0",
+            "trace": 0
+        },
+        {
+            "type": "multiple",
+            "time": 160,
+            "count": 20,
+            "delay": 1.5,
+            "action": "spawn",
+            "pos": [1,5],
+            "name": "0",
+            "trace": 0
+        },
+        {
+            "type": "multiple",
+            "time": 40,
+            "count": 10,
+            "delay": 10,
+            "action": "spawn",
+            "pos": [1,3],
+            "name": "1",
+            "trace": 2
+        },
+        {
+            "type": "multiple",
+            "time": 40,
+            "count": 10,
+            "delay": 10,
+            "action": "spawn",
+            "pos": [1,4],
+            "name": "1",
+            "trace": 3
+        },
+        {
+            "type": "multiple",
+            "time": 40,
+            "count": 10,
+            "delay": 10,
+            "action": "spawn",
+            "pos": [1,5],
+            "name": "1",
+            "trace": 4
+        },
+        {
+            "type": "multiple",
+            "time": 140,
+            "count": 5,
+            "delay": 10,
+            "action": "spawn",
+            "pos": [1,3],
+            "name": "2",
+            "trace": 2
+        },
+        {
+            "type": "multiple",
+            "time": 140,
+            "count": 5,
+            "delay": 10,
+            "action": "spawn",
+            "pos": [1,4],
+            "name": "2",
+            "trace": 3
+        },
+        {
+            "type": "multiple",
+            "time": 140,
+            "count": 5,
+            "delay": 10,
+            "action": "spawn",
+            "pos": [1,5],
+            "name": "2",
+            "trace": 4
+        }
+    ],
+    "traces": [
+        [
+            {
+                "type": "move",
+                "value": [5, 5]
+            },
+            {
+                "type": "move",
+                "value": [8, 1]
+            }
+        ],
+        [
+            {
+                "type": "move",
+                "value": [2, 3]
+            },
+            {
+                "type": "wait_for_appeartime",
+                "value": 5
+            },
+            {
+                "type": "move",
+                "value": [8, 3]
+            }
+        ],
+        [
+            {
+                "type": "move",
+                "value": [2, 3]
+            },
+            {
+                "type": "wait_for_appeartime",
+                "value": 10
+            },
+            {
+                "type": "move",
+                "value": [3, 3]
+            },
+            {
+                "type": "wait_for_appeartime",
+                "value": 20
+            },
+            {
+                "type": "move",
+                "value": [4, 3]
+            },
+            {
+                "type": "wait_for_appeartime",
+                "value": 30
+            },
+            {
+                "type": "move",
+                "value": [8, 3]
+            }
+        ],
+        [
+            {
+                "type": "move",
+                "value": [2, 4]
+            },
+            {
+                "type": "wait_for_appeartime",
+                "value": 10
+            },
+            {
+                "type": "move",
+                "value": [3, 4]
+            },
+            {
+                "type": "wait_for_appeartime",
+                "value": 20
+            },
+            {
+                "type": "move",
+                "value": [4, 4]
+            },
+            {
+                "type": "wait_for_appeartime",
+                "value": 30
+            },
+            {
+                "type": "move",
+                "value": [8, 3]
+            }
+        ],
+        [
+            {
+                "type": "move",
+                "value": [2, 5]
+            },
+            {
+                "type": "wait_for_appeartime",
+                "value": 10
+            },
+            {
+                "type": "move",
+                "value": [3, 5]
+            },
+            {
+                "type": "wait_for_appeartime",
+                "value": 20
+            },
+            {
+                "type": "move",
+                "value": [4, 5]
+            },
+            {
+                "type": "wait_for_appeartime",
+                "value": 30
+            },
+            {
+                "type": "move",
+                "value": [8, 3]
+            }
+        ]
+    ]
+}

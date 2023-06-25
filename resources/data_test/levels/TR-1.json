@@ -1,0 +1,116 @@
+{
+    "base": {
+        "name": "多路阻擊",
+        "width": 10,
+        "height": 7,
+        "map": [
+            [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+            [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+            [1, 1, 0, 0, 0, 0, 0, 0, 1, 1],
+            [1, 1, 0, 0, 0, 0, 0, 0, 1, 1],
+            [1, 1, 0, 0, 0, 0, 0, 0, 1, 1],
+            [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+            [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+        ],
+        "red_doors": [
+            [2, 2],
+            [2, 4]
+        ],
+        "blue_doors": [
+            [7, 2],
+            [7, 4]
+        ],
+        "tower_health": 3,
+        "default_cost": 10,
+        "max_cost": 99
+    },
+    "formation": [
+        {
+            "weapon": {
+                "name": "0",
+                "level": 1
+            },
+            "orb": null
+        }
+    ],
+    "rewards": {
+        "first": [
+            {
+                "type": "level",
+                "value": "0-2"
+            }
+        ],
+        "first_full": [],
+        "full": [],
+        "partial": []
+    },
+    "enemies": {
+        "0": {}
+    },
+    "actionlist": [
+        {
+            "type": "single",
+            "time": 0,
+            "action": "tutorial",
+            "text": "敵人出現了"
+        },
+        {
+            "type": "single",
+            "time": 0,
+            "action": "spawn",
+            "name": "0",
+            "pos": [2, 2],
+            "trace": 0
+        },
+        {
+            "type": "single",
+            "time": 10,
+            "action": "tutorial",
+            "text": "敵人又出現了"
+        },
+        {
+            "type": "single",
+            "time": 10,
+            "action": "spawn",
+            "name": "0",
+            "pos": [2, 4],
+            "trace": 1
+        },
+        {
+            "type": "single",
+            "time": 20,
+            "action": "spawn",
+            "name": "0",
+            "pos": [2, 2],
+            "trace": 0
+        },
+        {
+            "type": "single",
+            "time": 30,
+            "action": "spawn",
+            "name": "0",
+            "pos": [2, 4],
+            "trace": 1
+        }
+    ],
+    "traces": [
+        [
+            {
+                "type": "move",
+                "value": [
+                    7,
+                    2
+                ]
+            }
+        ],
+        [
+            {
+                "type": "move",
+                "value": [
+                    7,
+                    4
+                ]
+            }
+        ]
+    ]
+}

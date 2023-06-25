@@ -1,0 +1,95 @@
+{
+    "base": {
+        "name": "第二關",
+        "width": 10,
+        "height": 7,
+        "map": [
+            [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+            [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+            [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+            [1, 1, 0, 0, 0, 0, 0, 0, 1, 1],
+            [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+            [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+            [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+        ],
+        "red_doors": [
+            [2, 3]
+        ],
+        "blue_doors": [
+            [7, 3]
+        ],
+        "tower_health": 3,
+        "default_cost": 10,
+        "max_cost": 99
+    },
+    "rewards": {
+        "first": [
+            {
+                "type": "level",
+                "value": "TR-2"
+            }
+        ],
+        "first_full": [],
+        "full": [],
+        "partial": []
+    },
+    "enemies": {
+        "0": {}
+    },
+    "actionlist": [
+        {
+            "type": "multiple",
+            "time": 10,
+            "count": 5,
+            "delay": 5,
+            "action": "spawn",
+            "name": "0",
+            "pos": [2, 3],
+            "trace": 0
+        },
+        {
+            "type": "multiple",
+            "time": 30,
+            "count": 2,
+            "delay": 0,
+            "action": "spawn",
+            "name": "0",
+            "pos": [2, 3],
+            "trace": 0
+        },
+        {
+            "type": "multiple",
+            "time": 35,
+            "count": 2,
+            "delay": 0,
+            "action": "spawn",
+            "name": "0",
+            "pos": [2, 3],
+            "trace": 0
+        }
+    ],
+    "traces": [
+        [
+            {
+                "type": "move",
+                "value": [3, 3]
+            },
+            {
+                "type": "wait_for_second",
+                "value": 5
+            },
+            {
+                "type": "move",
+                "value": [6, 3]
+            },
+            {
+                "type": "wait_for_second",
+                "value": 5
+            },
+            {
+                "type": "move",
+                "value": [7, 3]
+            }
+        ]
+    ]
+}

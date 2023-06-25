@@ -1,0 +1,31 @@
+{
+    "attributes": {
+        "attack": 200,
+        "attack_speed": 100,
+        "max_health": 1000,
+        "defense": 100,
+        "resistance": 0,
+        "move_speed": 300,
+        "attack_range": 1.1,
+        "attack_interval": 1,
+        "attack_count": 1
+    },
+    "level_attributes": {
+        "defense": 2,
+        "max_health": 5,
+        "attack": 4
+    },
+    "textures": {
+        "character": "characters/0/1.png",
+        "weapon": "weapon/3_.png",
+        "label": "weapon/3_.png",
+        "icon": "weapon/3_icon.png"
+    },
+    "skills": [],
+    "type": "rapier",
+    "character_type": "walk",
+    "name": "普通的單手劍",
+    "cost": 15,
+    "redeploy": 60,
+    "main": true
+}

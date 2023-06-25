@@ -1,0 +1,2 @@
+java -jar Topics_in_information_class_Java.jar
+pause

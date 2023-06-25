@@ -1,0 +1,53 @@
+{
+    "current": {
+        "id": "5a33e857-c156-4b47-93da-ec34a9c2f96e",
+        "isonline": false,
+        "name": "example"
+    },
+    "offlines": [
+        {
+            "name": "USER5012",
+            "uuid": "2bcd45b4-093e-4e93-8cbf-abfcd3547432"
+        },
+        {
+            "name": "USER2051",
+            "uuid": "22688d04-709f-4fde-9e72-027fe7feb297"
+        },
+        {
+            "name": "USER188",
+            "uuid": "16afaea0-1fdd-4658-a5a7-1edc92a0e78c"
+        },
+        {
+            "name": "USER5093",
+            "uuid": "e10de807-45da-4a64-b301-fcee16479ab0"
+        },
+        {
+            "name": "USER5710",
+            "uuid": "60856386-6b9c-49c2-9b4d-27fb14f0d5cb"
+        },
+        {
+            "name": "USER5649",
+            "uuid": "1ec27549-40f9-473c-be6d-6660f8f93409"
+        },
+        {
+            "name": "u9583u8000u661fu8f1d",
+            "uuid": "a11224f3-f0e8-469a-8c66-6468e0d553d6"
+        },
+        {
+            "name": "\u4f60\u597d",
+            "uuid": "8601e8c2-89f8-4658-ad89-9d997dbec884"
+        },
+        {
+            "name": "\u9583\u8000\u661f\u8f1d\n",
+            "uuid": "3884aaf0-b7f8-4654-8ba9-0179903faf26"
+        },
+        {
+            "name": "OwO",
+            "uuid": "451e662b-3eb3-4907-93b8-9293d08a8cf5"
+        },
+        {
+            "name": "example",
+            "uuid": "5a33e857-c156-4b47-93da-ec34a9c2f96e"
+        }
+    ]
+}

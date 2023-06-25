@@ -1,0 +1,96 @@
+{
+    "base": {
+        "name": "利用阻擋",
+        "width": 10,
+        "height": 7,
+        "map": [
+            [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+            [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+            [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+            [1, 1, 0, 0, 0, 0, 0, 0, 1, 1],
+            [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+            [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+            [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+        ],
+        "red_doors": [
+            [2, 3]
+        ],
+        "blue_doors": [
+            [7, 3]
+        ],
+        "tower_health": 3,
+        "default_cost": 20,
+        "max_cost": 99
+    },
+    "formation": [
+        {
+            "weapon": {
+                "name": "0",
+                "level": 1
+            },
+            "orb": null
+        },
+        {
+            "weapon": {
+                "name": "1",
+                "level": 30
+            },
+            "orb": null
+        }
+    ],
+    "rewards": {
+        "first": [
+            {
+                "type": "level",
+                "value": "0-3"
+            },
+            {
+                "type": "weapon",
+                "value": "1"
+            }
+        ],
+        "first_full": [],
+        "full": [],
+        "partial": []
+    },
+    "enemies": {
+        "0": {},
+        "1": {}
+    },
+    "actionlist": [
+        {
+            "type": "multiple",
+            "time": 0,
+            "count": 3,
+            "delay": 0.1,
+            "action": "spawn",
+            "name": "1",
+            "pos": [2, 3],
+            "trace": 0
+        },
+        {
+            "type": "single",
+            "time": 0,
+            "action": "tutorial",
+            "text": "敵人出現了!快阻止他們!"
+        },
+        {
+            "type": "multiple",
+            "time": 30,
+            "count": 3,
+            "delay": 0.1,
+            "action": "spawn",
+            "name": "1",
+            "pos": [2, 3],
+            "trace": 0
+        }
+    ],
+    "traces": [
+        [
+            {
+                "type": "move",
+                "value": [7, 3]
+            }
+        ]
+    ]
+}

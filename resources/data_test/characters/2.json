@@ -1,0 +1,33 @@
+{
+	"attributes":{
+		"attack": 100,
+		"attack_speed": 100,
+		"max_health": 2000,
+		"defense": 300,
+		"resistance": 0,
+		"move_speed": 300,
+		"attack_interval": 4,
+		"attack_range": 1,
+		"attack_count": 3,
+		"block_count": 3
+	},
+	"textures": {
+		"character": "characters/0/1.png",
+		"weapon": "weapon/6_.png",
+		"label": "weapon/6_.png"
+	},
+	"skills": [
+		{
+			"name": "strongattack",
+			"sp": 3,
+			"mul": 3
+		}
+	],
+	"attack_area": [
+		[0,0]
+	],
+	"name": "guard_test",
+	"type": "ground",
+	"cost": 10,
+	"redeploy": 60
+}

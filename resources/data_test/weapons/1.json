@@ -1,0 +1,34 @@
+{
+    "attributes": {
+        "attack": 50,
+        "attack_speed": 100,
+        "max_health": 1500,
+        "defense": 150,
+        "resistance": 0,
+        "attack_interval": 4,
+        "attack_range": 1,
+        "attack_count": 1,
+        "block_count": 3
+    },
+    "level_attributes": {
+        "defense": 4,
+        "max_health": 10,
+        "attack": 1
+    },
+    "textures": {
+        "character": "characters/0/1.png",
+        "weapon": "weapon/6_.png",
+        "label": "weapon/6_.png",
+        "icon": "weapon/6_icon.png"
+    },
+    "skills": [],
+    "attack_area": [
+        [0, 0]
+    ],
+    "type": "shield",
+    "name": "普通的盾",
+    "character_type": "ground",
+    "cost": 20,
+    "redeploy": 60,
+    "main": false
+}

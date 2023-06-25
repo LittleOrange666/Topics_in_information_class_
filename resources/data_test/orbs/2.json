@@ -1,0 +1,21 @@
+{
+    "staff": {
+        "attributes": {},
+        "skills": [
+            {
+                "name": "fastattack",
+                "sp": 100,
+                "duration": 60,
+                "attack": 0.5,
+                "speed": 100,
+                "title": "快速施法"
+            }
+        ],
+        "character_type": "high",
+        "name": "術師"
+    },
+    "textures": {
+        "icon": "weapon/1_icon.png"
+    },
+    "name": "術師"
+}

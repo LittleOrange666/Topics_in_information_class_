@@ -1,0 +1,343 @@
+{
+    "base": {
+        "name": "第一關",
+        "width": 13,
+        "height": 8,
+        "map": [
+            [
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                1,
+                0,
+                2,
+                2,
+                2,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                1,
+                0,
+                2,
+                2,
+                2,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                0,
+                0,
+                2,
+                2,
+                2,
+                0,
+                1,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                0,
+                0,
+                2,
+                2,
+                2,
+                0,
+                1,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+            ]
+        ],
+        "red_doors": [
+            [
+                1,
+                1
+            ],
+            [
+                2,
+                1
+            ]
+        ],
+        "blue_doors": [
+            [
+                11,
+                6
+            ],
+            [
+                10,
+                6
+            ]
+        ],
+        "tower_health": 3,
+        "default_cost": 10,
+        "max_cost": 99
+    },
+    "actionlist": [
+        {
+            "type": "single",
+            "actionid": 4,
+            "time": 0
+        },
+        {
+            "type": "single",
+            "actionid": 3,
+            "time": 1
+        },
+        {
+            "type": "single",
+            "actionid": 0,
+            "time": 2
+        },
+        {
+            "type": "multiple",
+            "actionid": 3,
+            "time": 5,
+            "count": 3,
+            "delay": 2
+        },
+        {
+            "type": "multiple",
+            "actionid": 1,
+            "time": 10,
+            "count": 5,
+            "delay": 2
+        },
+        {
+            "type": "multiple",
+            "actionid": 0,
+            "time": 35,
+            "count": 5,
+            "delay": 2
+        },
+        {
+            "type": "multiple",
+            "actionid": 1,
+            "time": 40,
+            "count": 5,
+            "delay": 2
+        },
+        {
+            "type": "single",
+            "actionid": 5,
+            "time": 59
+        },
+        {
+            "type": "multiple",
+            "actionid": 2,
+            "time": 60,
+            "count": 3,
+            "delay": 10
+        }
+    ],
+    "actions": [
+        {
+            "action": "spawn",
+            "name": "0",
+            "pos": [
+                1,
+                1
+            ],
+            "commands": [
+                {
+                    "type": "move",
+                    "value": [
+                        1,
+                        6
+                    ]
+                },
+                {
+                    "type": "move",
+                    "value": [
+                        8,
+                        6
+                    ]
+                },
+                {
+                    "type": "move",
+                    "value": [
+                        8,
+                        2
+                    ]
+                },
+                {
+                    "type": "move",
+                    "value": [
+                        10,
+                        2
+                    ]
+                },
+                {
+                    "type": "move",
+                    "value": [
+                        10,
+                        6
+                    ]
+                }
+            ]
+        },
+        {
+            "action": "spawn",
+            "name": "0",
+            "pos": [
+                2,
+                1
+            ],
+            "commands": [
+                {
+                    "type": "move",
+                    "value": [
+                        2,
+                        5
+                    ]
+                },
+                {
+                    "type": "move",
+                    "value": [
+                        4,
+                        5
+                    ]
+                },
+                {
+                    "type": "move",
+                    "value": [
+                        4,
+                        1
+                    ]
+                },
+                {
+                    "type": "move",
+                    "value": [
+                        11,
+                        1
+                    ]
+                },
+                {
+                    "type": "move",
+                    "value": [
+                        11,
+                        6
+                    ]
+                }
+            ]
+        },
+        {
+            "action": "spawn",
+            "name": "1",
+            "pos": [
+                1,
+                1
+            ],
+            "commands": [
+                {
+                    "type": "move",
+                    "value": [
+                        11,
+                        6
+                    ]
+                }
+            ]
+        },
+        {
+            "action": "spawn",
+            "name": "0",
+            "pos": [
+                1,
+                1
+            ],
+            "commands": [
+                {
+                    "type": "move",
+                    "value": [
+                        11,
+                        6
+                    ]
+                }
+            ]
+        },
+        {
+            "action": "tutorial",
+            "text": "蟲蟲出現了"
+        },
+        {
+            "action": "tutorial",
+            "text": "士兵出現了"
+        }
+    ]
+}

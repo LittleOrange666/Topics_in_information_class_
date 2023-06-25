@@ -1,0 +1,21 @@
+{
+    "rapier": {
+        "attributes": {},
+        "skills": [
+            {
+                "name": "strongattack",
+                "sp": 3,
+                "mul": 3,
+                "title": "強力一擊"
+            }
+        ],
+        "character_type": "walk",
+        "name": "普通的劍士",
+        "cost": 15,
+        "redeploy": 60
+    },
+    "textures": {
+        "icon": "weapon/3_icon.png"
+    },
+    "name": "普通的劍士"
+}

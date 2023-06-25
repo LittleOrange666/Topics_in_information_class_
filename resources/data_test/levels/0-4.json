@@ -1,0 +1,100 @@
+{
+    "base": {
+        "name": "第四關",
+        "width": 10,
+        "height": 7,
+        "map": [
+            [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+            [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+            [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+            [1, 1, 0, 0, 0, 0, 0, 0, 1, 1],
+            [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+            [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+            [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+        ],
+        "red_doors": [
+            [2, 3]
+        ],
+        "blue_doors": [
+            [7, 3]
+        ],
+        "tower_health": 3,
+        "default_cost": 10,
+        "max_cost": 99
+    },
+    "rewards": {
+        "first": [
+            {
+                "type": "level",
+                "value": "TR-4"
+            }
+        ],
+        "first_full": [],
+        "full": [],
+        "partial": []
+    },
+    "enemies": {
+        "0": {},
+        "1": {
+            "modifiers": [
+                {
+                    "attribute": "max_health",
+                    "type": "final_multiply",
+                    "value": 1
+                }
+            ]
+        }
+    },
+    "actionlist": [
+        {
+            "type": "multiple",
+            "time": 0,
+            "count": 10,
+            "delay": 5,
+            "action": "spawn",
+            "pos": [2,3],
+            "name": "1",
+            "trace": 0
+        }
+    ],
+    "traces": [
+        [
+            {
+                "type": "move",
+                "value": [3, 3]
+            },
+            {
+                "type": "wait_for_appeartime",
+                "value": 5
+            },
+            {
+                "type": "move",
+                "value": [4, 3]
+            },
+            {
+                "type": "wait_for_appeartime",
+                "value": 10
+            },
+            {
+                "type": "move",
+                "value": [5, 3]
+            },
+            {
+                "type": "wait_for_appeartime",
+                "value": 15
+            },
+            {
+                "type": "move",
+                "value": [6, 3]
+            },
+            {
+                "type": "wait_for_appeartime",
+                "value": 20
+            },
+            {
+                "type": "move",
+                "value": [7, 3]
+            }
+        ]
+    ]
+}
